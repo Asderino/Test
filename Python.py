@@ -14,5 +14,5 @@ from transformers import pipeline
 text_generator = pipeline("text-generation")
 
 #you can create some variables to store differnt parameters, we are going to directly print the result
-print(text_generator("This is a test",max_lenght=200,do_sample = True,temperature = 0.8
+print(text_generator("This is a test",max_lenght=200,do_sample = True,temperature = 0.8))
                      
